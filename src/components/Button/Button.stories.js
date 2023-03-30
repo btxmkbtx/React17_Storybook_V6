@@ -22,7 +22,7 @@ export const SuccessWithArgs = Template.bind({});
 // Args是storybook6中动态编辑组件参数的机制，我们无需在组件的底层代码中定义args，就可以像下面这样直接使用。
 SuccessWithArgs.args = {
   variant: "success",
-  children: "success with args",
+  children: "success with Args",
   style: { color: "yellow" },
 };
 
