@@ -222,7 +222,7 @@ SuccessWithArgs.args = {
 ```
 
 ```react
-// 当然，我们也只有跳过定义模板的环节，直接导出一个带参函数组件，并通过Args机制改变其参数。
+// 当然，我们也可以跳过定义模板的环节，直接导出一个带参函数组件，并通过Args机制改变其参数。
 export const ButtonWithArgs = (props) => <Button {...props} />;
 ButtonWithArgs.args = {
   variant: "primary",
